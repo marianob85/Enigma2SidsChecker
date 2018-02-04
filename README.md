@@ -4,7 +4,7 @@ Check if Enigma2 channel list contain channels from SID's list
 ## Usage
 
 ```python
-python CheckSids.py -l "d:\Source\SvnDocuments\Settings\ChannelLists\Enigma2\lamedb" -i lookupsids.txt -o notfoundSids.txt
+python CheckSids.py -l "c:\ChannelLists\Enigma2\lamedb" -i lookupsids.txt -o notfoundSids.txt
 ```
 Example of output contain sid which was not found in **Channel** bouquets
 ```
